@@ -1,12 +1,15 @@
 # Pré-Requistos
 
 - Vagrant 2.2.6
+
 https://releases.hashicorp.com/vagrant/2.2.6/vagrant_2.2.6_x86_64.deb
 
 - Virtualbox 6.0.x
+
 https://download.virtualbox.org/virtualbox/6.1.0/virtualbox-6.1_6.1.0-135406~Ubuntu~bionic_amd64.deb
 
 - Rede interna
+
 VBoxManage dhcpserver add --netname kubernetes --ip 10.20.20.100 --netmask 255.255.255.0 --lowerip 10.20.20.101 --upperip 10.20.20.254 --enable
 
 - Executar instalação - VMs
