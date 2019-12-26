@@ -1,0 +1,20 @@
+config:
+  box: "ubuntu/xenial64"
+
+kubernetesmaster:
+  hostname: "kubernetesmaster"
+  network: "private_network"
+  intnet: "kubernetes"
+  ip: "10.20.20.110"
+
+kubernetesnode01:
+  hostname: "kubernetesnode01"
+  network: "private_network"
+  intnet: "kubernetes"
+  ip: "10.20.20.120"
+
+kubernetesnode02:
+  hostname: "kubernetesnode02"
+  network: "private_network"
+  intnet: "kubernetes"
+  ip: "10.20.20.130"
