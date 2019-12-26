@@ -1,5 +1,3 @@
-# k8s
-
 # Pré-Requistos
 
 - Vagrant 2.2.6
