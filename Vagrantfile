@@ -6,6 +6,8 @@ COMMON = YAML.load_file './configs/variables.yml'
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     # Common Setup
     config.vm.box = COMMON['config']['box']
+    config.cpu = COMMON['config']['cpu']
+    config.memory = COMMON['config']['memory']
 end
 
 # Mongo Cluster
